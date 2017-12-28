@@ -1,0 +1,39 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#main {
+  width: 1024px;
+  height: 512px;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.delete {
+  width: 150px;
+  background: none;
+  border: 1px solid #555;
+  margin: 0 20px;
+  padding: 10px;
+}
+.add {
+    height: 35px;
+    background: none;
+    border: 1px solid #0074D9;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+input{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #AAA;
+}
+.text-center {
+  text-align: center;
+}

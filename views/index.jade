@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  div#main(data='#{data}')
+  div.text-center
+    input#year(type='text' placeholder='输入美股、港股代码')
+    button.add(onClick='add()') 添加
+  br
