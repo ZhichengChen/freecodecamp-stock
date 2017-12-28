@@ -167,7 +167,7 @@ function ajax(url, cb) {
   xhttp.send();
 }
 
-var ws = new WebSocket('wss://freecodecamp-zhichengchen.c9users.io/');
+var ws = new WebSocket('wss://freecodecamp-dynamic-stock.herokuapp.com/');
 
 ws.onopen = function(evt) {
 };
