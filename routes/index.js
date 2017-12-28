@@ -6,7 +6,7 @@ var request = require('request');
 var data = ['汽车之家', 'GOOG'];
 
 exports.index = function(req, res) {
-  res.render('index', { title: 'Express' , data:data});
+  res.render('index', { title: 'Chart the Stock Market' , data:data});
 };
 
 exports.add = function(req, res) {
